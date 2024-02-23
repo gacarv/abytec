@@ -100,18 +100,26 @@ body {
     margin-right: 3%;
 }
 
-.social-icons a:last-child {
-    margin-right: 0;
-}
-
 .copyright {
-    margin-top: 5%;
+    margin-top: 2%;
     color: white;
     text-align: center;
 }
 
+.copyright h5 {
+    font-size: 1em;
+}
+
+#all_rights_reserved {
+    margin-bottom: 1em;
+}
+
 .design, .coding, .apps {
     text-align: justify;
+}
+
+.contact {
+    
 }
 
 @media (min-width: 992px) {
