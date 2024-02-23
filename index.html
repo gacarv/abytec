@@ -153,8 +153,9 @@
               </div>
               <div>
                 <label for="contact_tel" class="form-label">Celular:</label>
-                <input type="tel" class="form-control" id="contact_tel" aria-describedby="contact_tel_help"
-                  placeholder="(99) 99999-9999">
+                <input type="tel" class="form-control" aria-describedby="contact_tel" placeholder="(99) 99999-9999"
+                  id="phone_number_contact" name="phone_number_contact" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}"
+                  required>
               </div>
               <div>
                 <label for="contact_message" class="form-label">Mensagem:</label>
@@ -192,6 +193,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
