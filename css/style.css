@@ -52,3 +52,11 @@ body {
 #button_offcanvas_navbar {
     margin-right: 5px;
 }
+
+.offcanvas-body {
+    padding-top: 0;
+}
+
+offcanvas-header {
+    padding-bottom: 0;
+}
