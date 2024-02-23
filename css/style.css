@@ -97,7 +97,7 @@ body {
 
 .social-icons a {
     font-size: 1.5em;
-    color: rgba(37, 117, 252, 0.9);
+    color: white;
     margin-right: 3%;
 }
 
@@ -119,8 +119,13 @@ body {
     text-align: justify;
 }
 
-.contact {
-    
+#button_submit_contact {
+    margin-bottom: 0.5em;
+}
+
+.footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 @media (min-width: 992px) {
