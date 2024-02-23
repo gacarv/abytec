@@ -90,6 +90,30 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: rgba(37, 117, 252, 0.9);
+    margin-right: 3%;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.copyright {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.design, .coding, .apps {
+    text-align: justify;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         width: 100%;
