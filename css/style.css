@@ -19,6 +19,10 @@ body {
     color: white;
 }
 
+.dropdown-item {
+    color: white;
+}
+
 .nav-link:hover {
     color: white;
 }
