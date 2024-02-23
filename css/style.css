@@ -20,8 +20,13 @@ body {
     text-decoration: none;
 }
 
+#form_navbar {
+    font-size: smaller;
+}
+
 .nav-link {
     color: white;
+    font-size: medium;
 }
 
 .dropdown-menu {
