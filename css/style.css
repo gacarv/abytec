@@ -24,6 +24,12 @@ body {
     color: white;
 }
 
+.dropdown-menu {
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .dropdown-item {
     color: white;
 }
