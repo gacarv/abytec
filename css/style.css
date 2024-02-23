@@ -14,7 +14,7 @@ body {
     font-style: normal;
 }
 
-#title_page {
+.title_page {
     font-size: large;
     color: white;
     text-decoration: none;
