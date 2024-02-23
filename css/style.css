@@ -1,13 +1,3 @@
-@charset "UTF-8";
-
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-        width: 100%;
-    }
-}
-
-
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -83,6 +73,12 @@ body {
     padding-top: 0;
 }
 
-offcanvas-header {
+.offcanvas-header {
     padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        width: 100%;
+    }
 }
