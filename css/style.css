@@ -34,3 +34,8 @@ body {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: white;
 }
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-right: 10px;
+}
