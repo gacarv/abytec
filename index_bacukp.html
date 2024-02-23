@@ -30,12 +30,12 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-warning">
 
     <!-- Left -->
-    <div class="collapse navbar-collapse order-lg-1 order-3 navigation-menu">
+    <div class="collapse navbar-collapse order-3 order-lg-2 navigation-menu">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sobre nós</a></li>
         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            data-bs-toggle="dropdown" aria-expanded="false">Serviços</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li>
@@ -48,31 +48,34 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" aria-disabled="true">Disabled</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
       </ul>
     </div>
     <!-- Left -->
 
     <!-- Center -->
-    <a class="navbar-brand order-1 mr-lg-0" href="#">
-      <img src="img/navbar_icon.png" alt="navbar icon">
+    <a class="navbar-brand order-1 order-lg-1" href="#">
+      <img src="img/navbar_icon.png" alt="navbar icon" width="80%" height="80%">
     </a>
-    <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
-      data-bs-target=".navigation-menu">
+    <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target=".navigation-menu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Center -->
 
     <!-- Right -->
-    <div class="collapse navbar-collapse order-lg-3 order-4 navigation-menu">
+    <div class="collapse navbar-collapse order-4 order-lg-4 navigation-menu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
       </ul>
     </div>
+    <div class="collapse navbar-collapse order-5 order-lg-3 navigation-menu" style="width: auto;">
+      <form class="d-flex form-inline">
+        <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+        <input class="form-inline" type="search" placeholder="O que você procura?">
+      </form>
     </div>
     <!-- Right -->
-
 
   </nav>
 
