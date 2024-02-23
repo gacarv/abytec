@@ -17,3 +17,15 @@ body {
 .nav-link {
     color: white;
 }
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:active {
+    color: white;
+}
