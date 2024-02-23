@@ -14,10 +14,13 @@ body {
     font-style: normal;
 }
 
+
+
 .title_page {
-    font-size: large;
+    font-size: medium;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 .gradient-custom {
