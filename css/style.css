@@ -77,6 +77,15 @@ body {
     padding-bottom: 0;
 }
 
+#contact .form-label {
+    color: white;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         width: 100%;

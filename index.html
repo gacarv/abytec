@@ -26,74 +26,130 @@
 
 <body class="bg-dark">
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg gradient-custom">
-    <div class="order-0">
-      <a class="navbar-brand" href="#"><i class="bi bi-bootstrap" style="color: white;"></i></i></a>
-    </div>
-     <div class="order-1 order-lg-0 d-lg-none d-xl-none">
-      <h5><a href="" class="title_page">Abytec Informática</a></h5>
-    </div> 
-    <div class="order-2 d-lg-none">
-      <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-        <i class="bi bi-three-dots" style="color: white;"></i>
-      </a>
-    </div>
-    <!-- OFFCANVAS -->
-    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasExample"
-      aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <!--<h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Abytec Informática</h5>-->
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg gradient-custom">
+      <div class="order-0">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-bootstrap" style="color: white;"></i></i></a>
       </div>
-      <div class="offcanvas-body">
-        <div>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" id="home">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="sobre_nos">Sobre nós</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                id="servicos">
-                Serviços
-              </a>
-              <ul class="dropdown-menu bg-dark" style="border-color: white;">
-                <li><a class="dropdown-item" href="#">Montagem e manutenção</a></li>
-                <li>
-                  <hr class="dropdown-divider" style="border-color: white;">
-                </li>
-                <li><a class="dropdown-item" href="#">Limpeza</a></li>
-                <li>
-                  <hr class="dropdown-divider" style="border-color: white;">
-                </li>
-                <li><a class="dropdown-item" href="#">Instalação de sistemas operacionais</a></li>
-                <li>
-                  <hr class="dropdown-divider" style="border-color: white;">
-                </li>
-                <li><a class="dropdown-item" href="#">Troca de pasta térmica</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-disabled="true" id="contato">Contato</a>
-            </li>
-          </ul>
+      <div class="order-1 order-lg-0 d-lg-none d-xl-none">
+        <h5><a href="" class="title_page">Abytec Informática</a></h5>
+      </div>
+      <div class="order-2 d-lg-none">
+        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <i class="bi bi-three-dots" style="color: white;"></i>
+        </a>
+      </div>
+      <!-- OFFCANVAS -->
+      <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <!--<h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Abytec Informática</h5>-->
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-        <div class="order-1 order-lg-0 d-none d-lg-block d-xl-block mx-auto">
-          <h4><a href="" class="title_page">Abytec Informática</a></h4>
-        </div>
-        <div class="ms-auto">
-          <form class="d-flex" role="search">
-            <input class="form-control me-1" type="search" placeholder="O que você procura?" aria-label="Search" id="form_navbar">
-            <button class="btn btn-success" type="submit" id="button_offcanvas_navbar"><i
-                class="bi bi-search"></i></button>
-          </form>
+        <div class="offcanvas-body">
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" id="home">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="sobre_nos">Sobre nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="servicos">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu bg-dark" style="border-color: white;">
+                  <li><a class="dropdown-item" href="#">Montagem e manutenção</a></li>
+                  <li>
+                    <hr class="dropdown-divider" style="border-color: white;">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Limpeza</a></li>
+                  <li>
+                    <hr class="dropdown-divider" style="border-color: white;">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Instalação de sistemas operacionais</a></li>
+                  <li>
+                    <hr class="dropdown-divider" style="border-color: white;">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Troca de pasta térmica</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" id="contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+          <div class="order-1 order-lg-0 d-none d-lg-block d-xl-block mx-auto">
+            <h4><a href="" class="title_page">Abytec Informática</a></h4>
+          </div>
+          <div class="ms-auto">
+            <form class="d-flex" role="search">
+              <input class="form-control me-1" type="search" placeholder="O que você procura?" aria-label="Search"
+                id="form_navbar">
+              <button class="btn btn-success" type="submit" id="button_offcanvas_navbar"><i
+                  class="bi bi-search"></i></button>
+            </form>
+          </div>
         </div>
       </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="home" class="">
+
     </div>
-  </nav>
+
+    <div id="contact" class="">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col">
+            <form>
+              <div>
+                <label for="contact_name" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="contact_name" aria-describedby="contact_name_help"
+                  placeholder="Digite seu nome completo">
+              </div>
+              <div>
+                <label for="contact_tel" class="form-label">Celular:</label>
+                <input type="tel" class="form-control" id="contact_tel" aria-describedby="contact_tel_help"
+                  placeholder="(99) 99999-9999">
+              </div>
+              <div>
+                <label for="contact_message" class="form-label">Mensagem:</label>
+                <input type="text" class="form-control" id="contact_message"
+                  placeholder="Descreva o motivo do seu contato aqui">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+
+          <div class="col">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
