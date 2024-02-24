@@ -79,6 +79,15 @@ body {
     box-shadow: none;
 }
 
+#form_search {
+    margin-bottom: 0.4em;
+}
+
+#button_search {
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+}
+
 .navbar-brand {
     padding-left: 10px;
     padding-right: 10px;
