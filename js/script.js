@@ -1,4 +1,3 @@
-
 const handlePhone = (event) => {
     let input = event.target
     input.value = phoneMask(input.value)
@@ -11,19 +10,3 @@ const handlePhone = (event) => {
     value = value.replace(/(\d)(\d{4})$/,"$1-$2")
     return value
   }
-
-
-$("#offcanvasNavbar a").click(function() {
-    atrasoDeUmSegundo(meuCallback);
-});
-
-function atrasoDeUmSegundo(callback) {
-    setTimeout(callback, 1000);
-  }
-  
-  function meuCallback() {
-    // Código a ser executado após 1 segundo
-    $('.offcanvas').offcanvas('hide');
-  }
-  
-  atrasoDeUmSegundo(meuCallback);
