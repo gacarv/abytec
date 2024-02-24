@@ -11,8 +11,14 @@ const handlePhone = (event) => {
     return value
   }
 
+  // window.onbeforeunload = () => {
+    //for(const form of document.getElementsByTagName('form')) {
+      //form.reset();
+    //}
+  //}
+
   window.onbeforeunload = () => {
-    for(const form of document.getElementsByTagName('form')) {
+    for(const form of document.getElementById('form_contact')) {
       form.reset();
     }
   }
