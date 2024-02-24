@@ -128,7 +128,7 @@ body {
     margin-bottom: 1em;
 }
 
-#separate_section hr {
+.separate_section hr {
     height: 0.5em;
 }
 
