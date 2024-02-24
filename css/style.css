@@ -29,6 +29,18 @@ body {
     font-size: smaller;
 }
 
+.navbar-brand i {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler i {
+    color: white;
+}
+
 .nav-link {
     color: white;
     font-size: medium;
@@ -65,10 +77,6 @@ body {
     padding-right: 10px;
 }
 
-#button_offcanvas_navbar {
-    margin-right: 5px;
-}
-
 .offcanvas-body {
     padding-top: 0;
 }
@@ -98,7 +106,7 @@ body {
 }
 
 #contact_message {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .social-icons {
@@ -140,7 +148,7 @@ body {
 }
 
 #button_submit_contact {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
     width: 20%;
 }
 
