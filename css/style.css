@@ -128,7 +128,7 @@ body {
 }
 
 #separate_section hr {
-    height: 8px;
+    height: 0.5em;
 }
 
 .design, .coding, .apps {
