@@ -10,3 +10,9 @@ const handlePhone = (event) => {
     value = value.replace(/(\d)(\d{4})$/,"$1-$2")
     return value
   }
+
+  window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+      form.reset();
+    }
+  }
