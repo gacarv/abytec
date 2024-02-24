@@ -118,19 +118,19 @@
           <h2>CONTATO</h2>
           <div class="col-sm">
             <p>Você pode preencher o formulário abaixo ou entrar em contato comigo pelas minhas redes sociais.</p>
-            <form>
+            <form action="https://formspree.io/f/xnqevnyn" method="POST">
               <div>
                 <label for="contact_name" class="form-label">Nome:</label>
-                <input type="text" class="form-control" id="contact_name" required>
+                <input type="text" class="form-control" id="contact_name" name="name" required>
               </div>
               <div>
                 <label for="contact_tel" class="form-label">Celular:</label>
                 <input type="tel" maxlength="15" onkeyup="handlePhone(event)" class="form-control"
-                  placeholder="(99) 99999-9999" id="phone_number_contact" name="phone_number_contact" required />
+                  placeholder="(99) 99999-9999" id="phone_number_contact" name="phone_number" required />
               </div>
               <div>
                 <label for="contact_message" class="form-label">Mensagem:</label>
-                <textarea class="form-control" id="contact_message" rows="5"
+                <textarea class="form-control" id="contact_message" name="message" rows="5"
                   placeholder="Descreva o seu problema aqui. Eu retornarei o contato em breve!" required></textarea>
               </div>
               <div id="div_button_submit_contact">
