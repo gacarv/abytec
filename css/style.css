@@ -150,6 +150,10 @@ body {
     padding-bottom: 0.5em;
 }
 
+#link_contact {
+    margin-bottom: 0.5em;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         width: 100%;
