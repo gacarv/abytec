@@ -81,6 +81,16 @@ body {
     color: white;
 }
 
+#contact h2 {
+    color: white;
+}
+
+#contact p {
+    color: white;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
 .form-label {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -118,6 +128,10 @@ body {
 
 .design, .coding, .apps {
     text-align: justify;
+}
+
+#div_button_submit_contact {
+    text-align: left;
 }
 
 #button_submit_contact {
