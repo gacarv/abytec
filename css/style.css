@@ -127,6 +127,10 @@ body {
     margin-bottom: 1em;
 }
 
+#separate_section hr {
+    height: 8px;
+}
+
 .design, .coding, .apps {
     text-align: justify;
 }
